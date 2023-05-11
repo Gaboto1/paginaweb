@@ -1,0 +1,70 @@
+
+{
+    "Productos": [
+        {
+            "nombre": "Producto 1",
+            "imagen": "img/Pc.png",
+            "descripcion": "Pc Gamer Intel I5 10400f / Gtx 1660 Super / 16gb / 480gb Ssd.",
+            "precio": "$699.990",
+            "enlace": "https://articulo.mercadolibre.cl/MLC-1359970051-pc-gamer-intel-i5-10400f-gtx-1660-super-16gb-480gb-ssd-_JM?matt_tool=16931662&utm_source=google_shopping&utm_medium=organic"
+        },
+        {
+            "nombre": "Producto 2",
+            "imagen": "img/Note.png",
+            "descripcion": "ASUS ROG STRIX G15 G513 / AMD RYZEN 7 / 8GB RAM / 512GB SSD / 15.6\" FHD / NVIDIA GEFORCE RTX 3050.",
+            "precio": "$1.129.990",
+            "enlace": "https://simple.ripley.cl/asus-rog-strix-g15-g513-amd-ryzen-7-8gb-ram-512gb-ssd-156-fhd-nvidia-geforce-rtx-3050-2000391821497p?gclid=CjwKCAjw0N6hBhAUEiwAXab-TUK4XPNQdgOnBK9OviD-wfeYZO0Nt3Y7YoQOO45qg8zhHQ5sYjnJdxoCghAQAvD_BwE&color_80=grafito&s=mdco"
+        },
+        {
+            "nombre": "Producto 3",
+            "imagen": "img/pc2.png",
+            "descripcion": "Pc Gamer X99/10 Nucleos/ Ram 32gb/ssd 1tb/gtx 1660 Super 6gb",
+            "precio": "$629.910",
+            "enlace": "https://articulo.mercadolibre.cl/MLC-1264340926-pc-gamer-x9910-nucleos-ram-32gbssd-1tbgtx-1660-super-6gb-_JM?matt_tool=69843165&matt_word=&matt_source=google&matt_campaign_id=14571116151&matt_ad_group_id=137060537954&matt_match_type=&matt_network=g&matt_device=c&matt_creative=585649229931&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=650353890&matt_product_id=MLC1264340926&matt_product_partition_id=1635979333083&matt_target_id=aud-1816538870790:pla-1635979333083&gclid=CjwKCAjw0N6hBhAUEiwAXab-TTgk_fAogQDvX9CHXigkTOuk5uR6AKNkOs117Ui3Yi1WqWE3TJz9HRoCFWUQAvD_BwE"
+        },
+        {
+            "nombre": "Producto 4",
+            "imagen": "img/Note3.png",
+            "descripcion": "Notebook HP Gamer Victus 16-D0500LA Intel Core i5-11400H 8GB RAM 256GB SSD PCIe M.2 16.1\" Full HD NVIDIA GeForce RTX 3050 Wi-Fi 6",
+            "precio": "$899.990",
+            "enlace":"https://www.falabella.com/falabella-cl/product/116252274/PC-GAMER-CORE-I7-32GB-RAM-500GB-SSD-GTX-1660-TI-6GB/116252275"
+        },
+        {
+            "nombre": "Producto 5",
+            "imagen": "img/note4.png",
+            "descripcion": "Notebook HP Gamer Victus 16-D0500LA Intel Core i5-11400H 8GB RAM 256GB SSD PCIe M.2 16.1\" Full HD NVIDIA GeForce RTX 3050 Wi-Fi 6",
+            "precio": "799.990",
+            "enlace":"https://www.abcdin.cl/catalog/product/view/id/180070?utm_medium=afiliado&utm_source=mediasur&utm_campaign=prueba_soicos"
+        },
+        {   
+            "nombre":"Producto 6",
+            "imagen":"img/note5.png",
+            "descripcion":"PC GAMER AMD RYZEN 5 3600 RTX 3060 12GB - RAM 16GB 500GB",
+            "precio":"$1.139.990",
+            "enlace":"https://www.falabella.com/falabella-cl/product/113797065/PC-Gamer-AMD-Ryzen-5-3600-RTX-3060-12GB-RAM-16-GB-SSD-500-GB-M.2/113797066?kid=shopp184fc&disp=1&pid=Google_w2a&gclid=CjwKCAjw9J2iBhBPEiwAErwpeUM-6NOx6LLFRUORv7y05Y__veEUCUslO96nRhUn3htPrUNvX0yfFBoCQToQAvD_BwE"
+
+        },
+        {
+            "nombre":"Producto 7",
+            "imagen":"img/pc4.png",
+            "descripcion":"PC GAMER CORE I7 32GB RAM 500GB SSD GTX 1660 TI 6GB",
+            "precio":"1.328.900",
+            "enlace":"https://www.falabella.com/falabella-cl/product/116252274/PC-GAMER-CORE-I7-32GB-RAM-500GB-SSD-GTX-1660-TI-6GB/116252275"
+        },
+        {
+            "nombre":"Producto 8",
+            "imagen":"img/note5.png",
+            "descripcion":"Notebook Gamer ASUS ROG Strix Intel i7-13650HX 16GB RAM 512GB SSD RTX 4060 8GB 16\" 165Hz",
+            "precio":"$1.699.990",
+            "enlace":"https://www.falabella.com/falabella-cl/product/118426822/Notebook-Gamer-ASUS-ROG-Strix-Intel-i7-13650HX-16GB-RAM-512GB-SSD-RTX-4060-8GB-16-165Hz/118426823"
+        },
+        {
+            "nombre":"Producto 9",
+            "imagen":"img/note6.png",
+            "descripcion":"Notebook Gamer MSI GE76 Raider 11UG, i7-11800H, Ram 16GB, SSD 1TB, 17.3\" FHD 360Hz, RTX 3070, W10H",
+            "precio":"$2.662.480",
+            "enlace":"https://www.spdigital.cl/msi-ge76-raider-11ug-notebook-173-1920-x-1080-intel-core-i7-i7-11800h-16-gb-ddr4-sdram/"
+        
+        }
+    ]
+  }

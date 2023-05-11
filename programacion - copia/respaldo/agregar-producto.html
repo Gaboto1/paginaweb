@@ -1,0 +1,76 @@
+
+
+  <script>
+    // Esperar a que se cargue el DOM
+    document.addEventListener('DOMContentLoaded', function() {
+      
+      // Obtener el formulario
+      const form = document.querySelector('#agregar-producto-form');
+      
+      // Escuchar el evento submit del formulario
+      form.addEventListener('submit', function(event) {
+        
+        // Evitar el comportamiento por defecto del formulario
+        event.preventDefault();
+        
+        // Agregar el producto aquí
+        
+        // Redireccionar a la página de index2.html
+        window.location.href = 'index2.html';
+        
+      });
+      
+    });
+  </script>
+  <link rel="stylesheet" href="agregar.css">
+
+  <div class="col-12 col-md-6">
+    <h2>Agregar Producto</h2>
+    <div class="form-wrapper">
+      <form id="agregar-producto-form" class="needs-validation row g-3" novalidate>
+        <div class="col-md-6">
+          <label for="nombre-producto" class="form-label">Nombre del producto</label>
+          <input type="text" class="form-control" id="nombre-producto" name="nombre-producto" required>
+          <div class="invalid-feedback">
+            Por favor ingresa el nombre del producto.
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="precio-producto" class="form-label">Precio</label>
+          <div class="input-group">
+            <span class="input-group-text">$</span>
+            <input type="number" class="form-control" id="precio-producto" name="precio-producto" min="0" required>
+            <div class="invalid-feedback">
+              Por favor ingresa el precio del producto.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <label for="descripcion-producto" class="form-label">Descripción</label>
+          <textarea class="form-control" id="descripcion-producto" name="descripcion-producto" rows="3" required></textarea>
+          <div class="invalid-feedback">
+            Por favor ingresa la descripción del producto.
+          </div>
+        </div>
+        <div class="col-12">
+          <label for="imagen-producto" class="form-label">Imagen</label>
+          <input type="file" class="form-control" id="imagen-producto" name="imagen-producto" required>
+          <div class="invalid-feedback">
+            Por favor selecciona una imagen para el producto.
+          </div>
+          <form id="agregar-producto-form" class="needs-validation row g-3" novalidate method="POST" action="http://localhost:3000/agregar-producto">
+            <!-- campos del formulario -->
+            <button type="submit" class="btn btn-primary">Agregar Producto</button>
+          </form>
+          
+          
+        </div>
+        
+      </form>
+    </div>
+    <div class="col-12 col-md-6 d-flex align-items-center justify-content-end">
+  </div></div>
+
+    <h1 class="shark-computers">SharkComputers</h1>
+  </div>
+

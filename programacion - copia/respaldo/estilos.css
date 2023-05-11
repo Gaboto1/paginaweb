@@ -1,0 +1,229 @@
+body {
+        
+    background-image: url('img/fondo.jpg');
+    background-repeat: repeat;
+    background-size: 100px; 
+    background-color: rgba(0,0,0,0.05);
+    
+  }
+  
+        a {
+          color: #dc3545;
+        }
+  
+        a {
+          color: #dc3545;
+        }
+  
+        a:hover {
+          color: #c82333;
+        }
+  
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          font-family: "Poppins", sans-serif;
+          font-weight: 600;
+          margin-top: 0;
+          margin-bottom: 0.5rem;
+          color: #343a40;
+        }
+  
+        p {
+          margin-top: 0;
+          margin-bottom: 1rem;
+        }
+  
+        main {
+          padding-top: 1rem;
+          padding-bottom: 3rem;
+        }
+  
+        .row {
+          margin: 0 -1rem;
+        }
+        .product {
+          
+    position: relative;
+    border: 1px solid #000000;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    min-height: 550px;
+    background-color: white;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  .search-results {
+    background-image: url('img/results.png');
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .search-results li {
+    width: calc((100% - 4rem) / 3);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .search-results img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .search-results h3 {
+    margin: 6rem;
+    font-size: 1.25rem;
+  }
+  
+  .search-results p {
+    margin: 1rem;
+    font-size: 1rem;
+  }
+  
+  .search-results a {
+    display: block;
+    padding: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .search-results a.btn {
+    display: inline-block;
+    font-weight: bold;
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .search-results a.btn:hover {
+    background-color: #c82333;
+  }
+  
+  .product-container {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 1.5rem;
+    object-fit: cover;
+  }
+  
+  .product h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  
+  .product .d-flex {
+    display: flex;
+  }
+  
+  .product .justify-content-between {
+    justify-content: space-between;
+  }
+  
+  .buy-button {
+    position: relative;
+    bottom: 3.5rem; 
+    left: 2rem;
+    right: 1.5rem;
+  }
+  .boton {
+    background-color: #4CAF50; 
+    border: none;
+    color: white; /* Color de texto */
+    padding:  10px 20px; /* Espacio alrededor del texto */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como bloque */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 10px 0; /* Margen superior e inferior */
+    cursor: pointer; /* Cambiar cursor al pasar por encima */
+    border-radius: 5px; /* Borde redondeado */
+  }
+  
+  .elemento {
+    position: relative;
+    top: 20px;
+  }
+  
+  
+  
+  
+  .product:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .product p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .product p.price {
+    font-weight: bold;
+  }
+  
+  .product a.btn {
+    display: inline-block;
+    font-weight: bold;
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .product a.btn:hover {
+    background-color: #c82333;
+  }
+  
+  
+    
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  
+    footer a {
+      color: white;
+  
+      text-decoration: none;
+      font-weight: bold;
+    }
+  
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .d-flex.justify-content-end {
+        justify-content: flex-end;
+      }
+      #search-form {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 10px;
+        margin-right: 20px;
+      }
+      

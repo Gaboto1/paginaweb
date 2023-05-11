@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Documento</title>
+<script>
+    function nombreFuncion(elvalor=0, elvalor2=0){
+        console.log ("Hola Mundo"+elvalor);
+        console.log(`Hola Mundo desde consola ${elvalor2}`);
+
+    }
+    //expresion lamba
+    const mivarieble = (elvalor=0, elvalor2=0)=>{
+        console.log ("Hola Mundo"+elvalor);
+        console.log(`Hola Mundo desde consola ${elvalor2}`);
+    }
+    //nombreFuncion(123);
+</script>
+<head>
+    <body>
+        Hola Mundo
+        <input onchange="nombreFuncion(this.value, 999)"></input>
+        <button onclick="nombreFuncion()">HACE CLICK</button>
+    </body>
+</html>
